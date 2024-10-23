@@ -8,8 +8,8 @@ const healingProcedure = [
 ];
 
 const ProgramDetails = () => {
-    const { programName } = useParams(); // Get the program name from the URL
-    const navigate = useNavigate(); // Initialize useNavigate
+    const { programName } = useParams(); 
+    const navigate = useNavigate(); 
 
     const programData = {
         Obesity: {

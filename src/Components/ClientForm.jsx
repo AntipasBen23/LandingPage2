@@ -3,7 +3,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 
 const ClientForm = () => {
     const navigate = useNavigate();
-    const { programName } = useParams(); // Get the program name from the URL
+    const { programName } = useParams(); 
 
     const [formData, setFormData] = useState({
         name: '',
@@ -29,13 +29,11 @@ const ClientForm = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Basic validation for age
         if (formData.age < 1 || formData.age > 120) {
             alert("Please enter a valid age.");
             return;
         }
 
-        // Check if programName is defined
         if (!programName) {
             alert("Program name is not defined.");
             return;
@@ -69,7 +67,6 @@ const ClientForm = () => {
                 <input type="text" name="prescriptionDrugs" placeholder="Prescription Drugs Taken (If any)" onChange={handleChange} />
                 <textarea name="healthGoal" placeholder="Health Goal" onChange={handleChange} required></textarea>
 
-                {/* Date of Diagnosis Field */}
                 <div>
                     <label htmlFor="intendedStartDate">Date of Diagnosis</label>
                     <input type="date" id="intendedStartDate" name="intendedStartDate" onChange={handleChange} required />

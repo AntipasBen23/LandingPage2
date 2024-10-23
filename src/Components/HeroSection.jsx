@@ -17,10 +17,9 @@ export default function HeroSection() {
                     </div>
                 </div>
 
-                {/* Combined box for both lists */}
                 <div className="listContainer">
                     <div className="HeroList box">
-                        <div className="flex-container"> {/* Flex container for side-by-side lists */}
+                        <div className="flex-container">
                             <div className="list-section">
                                 <ul>
                                     <li>Obesity</li>

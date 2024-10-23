@@ -66,32 +66,32 @@
     padding-top: 10rem; 
     z-index: 1; 
     position: relative; 
-    margin-top: -8rem; /* Add margin to shift the boxes down */
+    margin-top: -8rem; 
 }
 
 .box {
-    background-color: white; /* White background for the boxes */
-    padding: 20px; /* Padding inside the boxes */
-    border-radius: 8px; /* Rounded corners */
-    margin-bottom: 20px; /* Space between boxes */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    max-width: 400px; /* Reduced maximum width for the boxes */
-    width: 100%; /* Full width but limited by max-width */
+    background-color: white; 
+    padding: 20px; 
+    border-radius: 8px; 
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 400px; 
+    width: 100%; 
 }
 
 .flex-container {
-    display: flex; /* Use flexbox for layout */
-    justify-content: space-between; /* Space between lists */
-    align-items: flex-start; /* Align items to the start */
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
 }
 
 .list-section {
-    flex: 1; /* Equal width for both list sections */
-    margin-right: 20px; /* Space between the two lists */
+    flex: 1; 
+    margin-right: 20px;
 }
 
 .list-section:last-child {
-    margin-right: 0; /* Remove margin for the last list */
+    margin-right: 0; 
 }
 
 .HeroList ul {
@@ -100,17 +100,16 @@
 }
 
 .HeroList ul li {
-    color: #609a33; /* Green color for list items */
+    color: #609a33; 
     font-family: 'Roboto', sans-serif;
     font-size: small;
     padding: 5px;
 }
 
-/* All text within boxes to be green */
 .box h1,
 .box p,
 .HeroList ul li {
-    color: #609a33; /* Green color for all text in boxes */
+    color: #609a33; 
 }
 
 .listContainer .Btnvk {
@@ -127,15 +126,15 @@
 }
 
 .enquiry-button {
-    margin-top: 10px; /* Adjust the spacing as needed */
+    margin-top: 10px; 
 }
 
 .enquiry-button .Btnvk {
-    text-decoration: none; /* Remove underline from the link */
+    text-decoration: none; 
 }
 
 .listContainer button:hover {
-    background-color: #e68a00; /* Darker shade on hover */
+    background-color: #e68a00; 
 }
  
 .HeroDown {
@@ -145,12 +144,12 @@
 }
 
 .RightTxt {
-    margin-top: -24rem; /* Space above the button */
-    margin-left: auto; /* Pushes the button to the right */
-    background-color: transparent; /* Background color */
-    color: #fff; /* Text color */
-    font-size: 2rem; /* Font size */
-    cursor: pointer; /* Change cursor to pointer */
+    margin-top: -24rem; 
+    margin-left: auto; 
+    background-color: transparent; 
+    color: #fff; 
+    font-size: 2rem;
+    cursor: pointer;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
@@ -160,11 +159,11 @@
     background-color: #7fb401; 
     border-color: #7fb401; 
     color: #fff; 
-    border: none; /* No border */
-    border-radius: 35px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor */
-    font-size: 1.2rem; /* Font size */
-    font-weight: bold; /* Bold text */
+    border: none; 
+    border-radius: 35px;
+    cursor: pointer; 
+    font-size: 1.2rem;
+    font-weight: bold;
     transition: background-color 0.3s ease; 
     background-image: url("./assets/Images1/buttonbk.png"); 
     margin-left: 12rem; 
@@ -176,115 +175,113 @@
 }
 
 .RightTxt:hover {
-    color: #4a7e26; /* Optional: Change color on hover for better UX */
+    color: #4a7e26; 
 }
 
 /* Responsive Styles */
 @media (max-width: 768px) {
     .content {
-        padding-top: 5rem; /* Reduce padding on smaller screens */
-        margin-top: -5rem; /* Adjust margin for boxes */
-        text-align: center; /* Center align text for smaller screens */
+        padding-top: 5rem; 
+        margin-top: -5rem; 
+        text-align: center;
     }
 
     .box {
-        margin-bottom: 15px; /* Space between boxes */
-        width: auto; /* Allow boxes to be auto width */
+        margin-bottom: 15px; 
+        width: auto; 
     }
 
     .flex-container {
-        flex-direction: column; /* Stack lists vertically */
-        align-items: center; /* Center align items */
+        flex-direction: column; 
+        align-items: center; 
     }
 
     .list-section {
-        margin-right: 0; /* Remove right margin on mobile */
-        margin-bottom: 20px; /* Add space between list sections */
-        width: 100%; /* Full width for list sections */
+        margin-right: 0; 
+        margin-bottom: 20px;
+        width: 100%; 
     }
 
     .HeroList ul li {
-        font-size: 1rem; /* Increase font size for better readability */
-        text-align: center; /* Center align list items */
+        font-size: 1rem; 
+        text-align: center;
     }
 
     .RightTxt {
-        font-size: 1.5rem; /* Reduce font size on mobile */
-        margin-top: -12rem; /* Adjust margin to fit */
-        line-height: 1.2; /* Adjust line height for better spacing */
+        font-size: 1.5rem; 
+        margin-top: -12rem; 
+        line-height: 1.2; 
     }
 
     .HeroDown {
-        text-align: center; /* Center the HeroDown content */
-        margin-top: 2rem; /* Add some margin for spacing */
+        text-align: center; 
+        margin-top: 2rem; 
     }
 
     .HeroDown .btnRight {
-        padding: 15px 30px; /* Adjust padding */
-        font-size: 1rem; /* Adjust font size */
-        margin-left: 0; /* Center button on mobile */
-        width: 100%; /* Full width button on mobile */
+        padding: 15px 30px; 
+        font-size: 1rem; 
+        margin-left: 0; 
+        width: 100%; 
     }
 }
 
 @media (max-width: 375px) {
     .wrapper {
-        /* Remove fixed height to allow scrolling */
-        height: auto; /* Allow content to determine height */
-        min-height: 100vh; /* Ensure at least full viewport height */
+        height: auto;
+        min-height: 100vh; 
     }
 
     .backgr {
-        /* Allow background to cover full height without being fixed */
-        padding: 20px; /* Adjust padding for space */
-        background-size: cover; /* Cover the entire container */
-        background-position: center; /* Center the background image */
+        padding: 20px;
+        background-size: cover;
+        background-position: center;
     }
 
     .content {
-        padding-top: 10rem; /* Adjust padding to make room for the top box */
-        margin-top: 0; /* Reset margin to avoid overlap */
-        text-align: center; /* Center align text for better presentation */
+        padding-top: 10rem; 
+        margin-top: 0; 
+        text-align: center;
     }
 
     .box {
-        margin-bottom: 20px; /* Space below each box */
-        width: auto; /* Allow boxes to fit automatically */
-        padding: 15px; /* Adjust padding for boxes */
+        margin-bottom: 20px; 
+        width: auto; 
+        padding: 15px;
     }
 
     .flex-container {
-        flex-direction: column; /* Stack lists vertically */
-        align-items: center; /* Center align items */
+        flex-direction: column;
+        align-items: center; 
     }
 
     .list-section {
-        margin-right: 0; /* Remove right margin on mobile */
-        margin-bottom: 10px; /* Add space below each list section */
-        width: 100%; /* Full width for list sections */
+        margin-right: 0; 
+        margin-bottom: 10px;
+        width: 100%; 
     }
 
     .HeroList ul li {
-        font-size: 1rem; /* Increase font size for better readability */
-        text-align: center; /* Center align list items */
+        font-size: 1rem;
+        text-align: center;
     }
 
     .RightTxt {
-        font-size: 1.5rem; /* Reduce font size on mobile */
-        margin-top: 2rem; /* Shift down to avoid overlap */
-        line-height: 1.2; /* Adjust line height for better spacing */
+        font-size: 1.5rem;
+        margin-top: 2rem; 
+        line-height: 1.2; 
     }
 
     .HeroDown {
-        text-align: center; /* Center the HeroDown content */
-        margin-top: 20px; /* Add margin for spacing */
+        text-align: center;
+        margin-top: 20px; 
     }
 
     .HeroDown .btnRight {
-        padding: 15px 30px; /* Adjust padding */
-        font-size: 1rem; /* Adjust font size */
-        margin-left: 0; /* Center button on mobile */
-        width: 100%; /* Full width button on mobile */
+        padding: 15px 30px; 
+        font-size: 1rem; 
+        margin-left: 0; 
+        width: 100%; 
     }
 
     .listContainer .Btnvk {
@@ -294,96 +291,88 @@
 
 
 /* Enquiry-Form Section */
-/* General styles for the form container */
 .enquiry-form-container {
-    position: relative; /* Position relative to allow overlay */
-    max-width: 600px; /* Maximum width for the form */
-    margin: 0 auto; /* Center the form */
-    padding: 20px; /* Padding around the form */
-    background-color: #f9f9f9; /* Light background color for form */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
-    color: #333; /* Dark text color for form fields */
-    overflow: hidden; /* Ensure overlay does not affect form layout */
+    position: relative; 
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: #f9f9f9;
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    color: #333; 
+    overflow: hidden;
 }
 
 .enquiry-form-container::before {
-    content: ''; /* Required for pseudo-element */
-    position: absolute; /* Position it absolutely */
-    top: 0; /* Align to the top */
-    left: 0; /* Align to the left */
-    right: 0; /* Align to the right */
-    bottom: 0; /* Align to the bottom */
-    background-image: url('./assets/Images1/Plantbased2Logo.jpg'); /* Set your background image */
-    background-size: cover; /* Cover the entire container */
-    background-position: center; /* Center the background image */
-    z-index: 0; /* Place behind the text */
-    opacity: 0.3; /* Darken the overlay (adjust opacity as needed) */
+    content: ''; 
+    position: absolute;
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('./assets/Images1/Plantbased2Logo.jpg');
+    background-size: cover; 
+    background-position: center; 
+    z-index: 0; 
+    opacity: 0.3; 
 }
 
-/* Heading style */
 .enquiry-form-container h1 {
-    text-align: center; /* Center the heading */
-    color: #609a33; /* Color to match your theme */
-    margin-bottom: 20px; /* Space below the heading */
+    text-align: center; 
+    color: #609a33; 
+    margin-bottom: 20px;
 }
 
-/* Label styles */
 label {
-    display: block; /* Make labels block elements */
-    margin-bottom: 8px; /* Space below each label */
-    font-weight: bold; /* Bold labels for emphasis */
-    color: #333; /* Dark gray color for text */
+    display: block; 
+    margin-bottom: 8px; 
+    font-weight: bold; 
+    color: #333; 
 }
 
-/* Input and textarea styles */
 input[type="text"],
 input[type="email"],
 textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Padding inside inputs */
-    border: 1px solid #ccc; /* Light gray border */
-    border-radius: 4px; /* Rounded corners */
-    margin-bottom: 15px; /* Space below each input */
-    font-size: 16px; /* Font size */
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    margin-bottom: 15px; 
+    font-size: 16px; 
     z-index: 1;
     position: relative;
 }
 
-/* Input focus styles */
 input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-    border-color: #609a33; /* Change border color on focus */
-    outline: none; /* Remove default outline */
-    box-shadow: 0 0 5px rgba(96, 154, 51, 0.5); /* Subtle shadow for focus */
+    border-color: #609a33; 
+    outline: none; 
+    box-shadow: 0 0 5px rgba(96, 154, 51, 0.5);
 }
 
-/* Button styles */
 button[type="submit"] {
-    background-color: #609a33; /* Main button color */
-    color: #fff; /* White text color */
-    padding: 10px 15px; /* Padding inside button */
-    border: none; /* Remove default border */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Change cursor to pointer */
-    font-size: 16px; /* Font size */
-    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    background-color: #609a33; 
+    color: #fff; 
+    padding: 10px 15px;
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s ease;
 }
 
-/* Button hover styles */
 button[type="submit"]:hover {
-    background-color: #4a7e26; /* Darker shade on hover */
+    background-color: #4a7e26; 
 }
 
-/* Responsive adjustments */
 @media (max-width: 600px) {
     .enquiry-form-container {
-        padding: 15px; /* Less padding on smaller screens */
+        padding: 15px; 
     }
     
     button[type="submit"] {
-        width: 100%; /* Full width button on smaller screens */
+        width: 100%; 
     }
 }
 
@@ -494,7 +483,7 @@ button:hover {
     .carouselContainer {
         flex: 1;
         overflow: hidden; 
-        height: 50%; /* Adjust height as needed */
+        height: 50%; 
         position: relative;
         margin-bottom: 2rem;
     }
@@ -526,107 +515,105 @@ button:hover {
     }
 }
 
-
 /* Healing-Programs Section */
 .healing-programs {
-    background-color: #ffffff; /* White background */
-    padding: 40px; /* Padding around the content */
-    text-align: center; /* Center the heading and content */
-    min-height: 100vh; /* Ensure it takes full height */
+    background-color: #ffffff; 
+    padding: 40px; 
+    text-align: center;
+    min-height: 100vh; 
 }
 
 .healing-programs h1 {
-    color: #609a33; /* Green color for the heading */
-    font-size: 2.5rem; /* Larger font size for the heading */
-    margin-bottom: 20px; /* Space below the heading */
+    color: #609a33; 
+    font-size: 2.5rem; 
+    margin-bottom: 20px; 
 }
 
 .program-list {
-    display: flex; /* Use flexbox for layout */
-    justify-content: center; /* Center items horizontally */
-    flex-wrap: wrap; /* Allow wrapping of items */
-    margin-top: 20px; /* Space above the columns */
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    margin-top: 20px;
 }
 
 .column {
     display: flex;
-    flex-direction: column; /* Arrange items vertically */
-    align-items: center; /* Center buttons within the column */
-    margin: 15px; /* Space between columns */
+    flex-direction: column; 
+    align-items: center; 
+    margin: 15px; 
 }
 
 .program-image {
-    width: 100px; /* Set width for images */
-    height: 100px; /* Set height for images */
-    object-fit: cover; /* Ensure images cover the area without distortion */
-    border-radius: 15px; /* Rounded corners for images */
-    margin-bottom: 10px; /* Space below images */
+    width: 100px; 
+    height: 100px; 
+    object-fit: cover; 
+    border-radius: 15px; 
+    margin-bottom: 10px; 
 }
 
 .column button {
-    padding: 15px 30px; /* Padding for buttons */
-    background-color: #609a33; /* Green background color */
-    color: #ffffff; /* White text color */
-    border: none; /* No border */
-    border-radius: 25px; /* Rounded corners */
-    font-size: 1rem; /* Font size */
-    font-weight: bold; /* Bold text */
-    cursor: pointer; /* Pointer cursor on hover */
-    transition: background-color 0.3s ease; /* Transition effect */
-    width: 200px; /* Fixed width for buttons */
+    padding: 15px 30px; 
+    background-color: #609a33;
+    color: #ffffff; 
+    border: none; 
+    border-radius: 25px; 
+    font-size: 1rem; 
+    font-weight: bold; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+    width: 200px; 
 }
 
 .column button:hover {
-    background-color: #4a7e26; /* Darker shade on hover */
+    background-color: #4a7e26; 
 }
 
 .instruction {
-    color: #609a33; /* Green color for the instruction text */
-    font-size: 1.2rem; /* Font size */
-    margin-top: 20px; /* Space above the paragraph */
-    margin-bottom: 20px; /* Space below the paragraph */
+    color: #609a33; 
+    font-size: 1.2rem;
+    margin-top: 20px; 
+    margin-bottom: 20px;
 }
-
 
 /* Program-Details Section  */
 .program-details {
-    padding: 40px; /* Padding around the content */
+    padding: 40px;
 }
 
 .columns {
-    display: flex; /* Use flexbox for layout */
-    justify-content: space-between; /* Space between columns */
+    display: flex; 
+    justify-content: space-between; 
 }
 
 .reviews, .scientific-research, .healing-procedure {
-    flex: 1; /* Allow columns to grow equally */
-    margin: 0 10px; /* Margin between columns */
+    flex: 1; 
+    margin: 0 10px;
 }
 
 .review {
-    overflow: visible; /* Ensure overflow is visible */
-    white-space: normal; /* Allow text to wrap normally */
-    max-height: none; /* Remove any max-height restrictions */
+    overflow: visible; 
+    white-space: normal;
+    max-height: none; 
 }
 
 
 .rating {
-    color: gold; /* Color for the star rating */
+    color: gold;
 }
 
 .pay-now {
-    padding: 10px 20px; /* Padding for Pay Now button */
-    background-color: #609a33; /* Green background color */
-    color: #ffffff; /* White text color */
-    border: none; /* No border */
-    border-radius: 25px; /* Rounded corners */
-    font-size: 1rem; /* Font size */
-    cursor: pointer; /* Pointer cursor */
-    transition: background-color 0.3s ease; /* Transition effect */
+    padding: 10px 20px; 
+    background-color: #609a33;
+    color: #ffffff; 
+    border: none; 
+    border-radius: 25px;
+    font-size: 1rem; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
 }
 
 .pay-now:hover {
-    background-color: #4a7e26; /* Darker shade on hover */
+    background-color: #4a7e26; 
 }
 
 
@@ -695,25 +682,25 @@ button:hover {
     text-align: center;
     font-size: 32px;
     color: #609a33;
-    margin-bottom: 40px; /* Increased margin for better spacing */
+    margin-bottom: 40px; 
     padding: 20px 0;
 }
 
 .productGrid {
     display: flex;
-    justify-content: center; /* Center the cards */
+    justify-content: center;
     gap: 40px;
-    flex-wrap: wrap; /* Allows wrapping on smaller screens */
-    max-width: 1200px; /* Limits the width to keep it centered and neat */
-    margin: 0 auto; /* Centers the grid */
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto; 
 }
 
 .productCard {
     background-color: #cbe8e1;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 30px; /* Adjust padding to fit design */
-    width: 300px; /* Fixed width for each card */
+    padding: 30px; 
+    width: 300px; 
     text-align: center;
 }
 
@@ -766,129 +753,129 @@ button:hover {
 }
 
 .ctaButton:hover {
-    background-color: #218838; /* Darker green on hover */
+    background-color: #218838;
 }
 
 /* Program-details Section */
 .program-details {
-    background-color: #f9f9f9; /* Light background for contrast */
-    padding: 40px 20px; /* Padding around the content */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    margin: 20px auto; /* Center the component */
-    max-width: 800px; /* Maximum width for the component */
+    background-color: #f9f9f9;
+    padding: 40px 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto; 
+    max-width: 800px; 
 }
 
 .program-details h1 {
-    font-size: 28px; /* Title font size */
-    color: #333; /* Dark color for text */
-    text-align: center; /* Center the title */
-    margin-bottom: 20px; /* Space below the title */
+    font-size: 28px; 
+    color: #333; 
+    text-align: center;
+    margin-bottom: 20px; 
 }
 
 .columns {
-    display: flex; /* Flex layout for columns */
-    flex-direction: row; /* Arrange columns in a row */
-    gap: 30px; /* Increased space between columns */
-    max-width: 100%; /* Allow full width for the columns */
-    flex-wrap: wrap; /* Allow wrapping of columns on smaller screens */
+    display: flex; 
+    flex-direction: row; 
+    gap: 30px; 
+    max-width: 100%; 
+    flex-wrap: wrap; 
 }
 
 .reviews, .scientific-research, .healing-procedure {
-    background-color: #fff; /* White background for content sections */
-    border-radius: 8px; /* Rounded corners */
-    padding: 20px; /* Padding for content */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    flex: 1; /* Allow flex items to grow equally */
-    min-width: 300px; /* Minimum width for each section */
+    background-color: #fff; 
+    border-radius: 8px; 
+    padding: 20px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1; 
+    min-width: 300px; 
 }
 
 .reviews h2, .scientific-research h2, .healing-procedure h2 {
-    font-size: 24px; /* Section header font size */
-    color: #609a33; /* Green color for headers */
-    margin-bottom: 10px; /* Space below headers */
+    font-size: 24px; 
+    color: #609a33; 
+    margin-bottom: 10px;
 }
 
 .review {
-    margin-bottom: 15px; /* Space between reviews */
+    margin-bottom: 15px;
 }
 
 .review img {
-    width: 100px; /* Image size */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 50%; /* Circular images */
-    margin-right: 10px; /* Space between image and text */
-    float: left; /* Align image to the left */
+    width: 100px; 
+    height: auto; 
+    border-radius: 50%;
+    margin-right: 10px; 
+    float: left; 
 }
 
 .rating {
-    color: #ffcc00; /* Gold color for stars */
+    color: #ffcc00; 
 }
 
 .healing-procedure ul {
-    list-style-type: disc; /* Bullet points for list items */
-    padding-left: 20px; /* Space on left for bullets */
+    list-style-type: disc; 
+    padding-left: 20px; 
 }
 
 .pay-now {
-    background-color: #28a745; /* Green background */
-    color: white; /* White text */
-    border: none; /* Remove default border */
-    padding: 10px 20px; /* Padding for button */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor on hover */
-    font-size: 16px; /* Font size for button */
-    margin-top: 20px; /* Space above the button */
-    display: block; /* Make the button block-level */
-    width: 100%; /* Full width */
+    background-color: #28a745; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer; 
+    font-size: 16px; 
+    margin-top: 20px;
+    display: block; 
+    width: 100%; 
 }
 
 .pay-now:hover {
-    background-color: #218838; /* Darker green on hover */
+    background-color: #218838; 
 }
 
 /* Client-Form Section */
 .client-form {
-    padding: 40px 30px; /* Padding around the content */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    margin: 20px auto; /* Center the component */
-    max-width: 600px; /* Maximum width for the form */
+    padding: 40px 30px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto; 
+    max-width: 600px; 
 }
 
 .client-form::before {
-    content: ''; /* Required for pseudo-element */
-    position: absolute; /* Position it absolutely */
-    top: 0; /* Align to the top */
-    left: 0; /* Align to the left */
-    right: 0; /* Align to the right */
-    bottom: 0; /* Align to the bottom */
-    background-image: url('./assets/Images1/Plantbased2Logo.jpg'); /* Set your background image */
-    background-size:auto; /* Cover the entire container */
-    background-position: center; /* Center the background image */
-    background-attachment: fixed; /* Make background image static */
-    z-index: 0; /* Place behind the text */
-    opacity: 0.2; /* Darken the overlay (adjust opacity as needed) */
+    content: ''; 
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0;
+    background-image: url('./assets/Images1/Plantbased2Logo.jpg'); 
+    background-size:auto;
+    background-position: center; 
+    background-attachment: fixed;
+    z-index: 0; 
+    opacity: 0.2; 
 }
 
 .client-form h1 {
-    font-size: 28px; /* Title font size */
-    color: #333; /* Dark color for text */
-    text-align: center; /* Center the title */
-    margin-bottom: 20px; /* Space below the title */
+    font-size: 28px; 
+    color: #333; 
+    text-align: center; 
+    margin-bottom: 20px; 
 }
 
 .client-form p {
-    font-size: 14px; /* Instructions font size */
-    color: #666; /* Grey color for text */
-    text-align: center; /* Center the instruction */
-    margin-bottom: 20px; /* Space below the instructions */
+    font-size: 14px; 
+    color: #666; 
+    text-align: center; 
+    margin-bottom: 20px;
 }
 
 .client-form form {
-    display: flex; /* Flex layout for form elements */
-    flex-direction: column; /* Arrange items in a column */
-    gap: 15px; /* Space between form elements */
+    display: flex; 
+    flex-direction: column;
+    gap: 15px; 
 }
 
 .client-form input[type="text"],
@@ -897,112 +884,33 @@ button:hover {
 .client-form input[type="date"],
 .client-form select,
 .client-form textarea {
-    border: 1px solid #ccc; /* Light border for inputs */
-    border-radius: 4px; /* Rounded corners */
-    padding: 10px; /* Padding inside the inputs */
-    font-size: 16px; /* Font size for inputs */
-    width: 100%; /* Full width for inputs */
-    box-sizing: border-box; /* Include padding and border in total width */
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    padding: 10px; 
+    font-size: 16px; 
+    width: 100%; 
+    box-sizing: border-box;
     z-index: 1;
 }
 
 .client-form textarea {
-    resize: vertical; /* Allow vertical resizing */
-    min-height: 100px; /* Minimum height for textareas */
+    resize: vertical; 
+    min-height: 100px; 
 }
 
 .client-form button {
-    background-color: #28a745; /* Green background */
-    color: white; /* White text */
-    border: none; /* Remove default border */
-    padding: 12px; /* Padding for button */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor on hover */
-    font-size: 16px; /* Font size for button */
-    transition: background-color 0.3s; /* Smooth transition for background color */
+    background-color: #28a745; 
+    color: white; 
+    border: none; 
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s; 
 }
 
 .client-form button:hover {
-    background-color: #218838; /* Darker green on hover */
+    background-color: #218838; 
 }
 
 
-/* Footer-section */
-.Footer {
-    background-color: #609a33; 
-    padding: 2rem 0;
-    font-family: 'Helvetica Neue', Arial, sans-serif; /* Professional and clean font */
-    color: white;
-    text-align: left;
-    margin-top: 120px;
-  }
-  
-  .footerContainer {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .column {
-    flex: 1;
-    margin: 1rem;
-    min-width: 200px;
-  }
-  
-  .column h3 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #ffffff; /* White text */
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  .column ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .column ul li {
-    margin: 0.5rem 0;
-  }
-  
-  .column ul li a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 1rem;
-    transition: color 0.3s ease;
-    font-family: 'Montserrat', sans-serif;
-  }
-  
-  .column ul li a:hover {
-    color: #90EE90; /* Light green on hover */
-  }
-  
-  .footerBottom {
-    border-top: 1px solid #90EE90; /* Light green border */
-    padding: 1rem 0;
-    margin-top: 2rem;
-  }
-  
-  .footerBottom p {
-    font-size: 1rem;
-    margin: 0;
-    color: #ffffff;
-    font-family: 'Montserrat', sans-serif;
-    padding-left: 20px;
-  }
-  
-  .column div a img {
-    width: 30px;
-    height: 30px;
-    margin-right: 1rem;
-    transition: transform 0.3s ease;
-  }
-  
-  .column div a img:hover {
-    transform: scale(1.1); /* Slight hover effect */
-  }
-  

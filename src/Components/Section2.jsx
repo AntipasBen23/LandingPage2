@@ -39,7 +39,7 @@ export default function Section2() {
             </div>
 
             <div className="contentss">
-                <h2 className='parr'>🌿 Why  Plantbased nutrition Heals Your Body? 🌿</h2>
+                <h2 className='parr'> Why  Plantbased nutrition Heals Your Body? </h2>
                 <p>
                     If you're Tired of chronic diseases holding you back? 
                     <br /><br />
